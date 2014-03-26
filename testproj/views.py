@@ -12,12 +12,12 @@ def home(request):
 
 ########## FUNCTIONS ##########
 
-CONSUMER_KEY = '77swcwrr1dnei4'
-CONSUMER_SECRET = 'iSmcq5gCaxQ69bWJ'
+CONSUMER_KEY = '****************'
+CONSUMER_SECRET = '**************'
 CONSUMER = oauth.Consumer(CONSUMER_KEY, CONSUMER_SECRET)
 CLIENT = oauth.Client(CONSUMER)
-USER_TOKEN = '6a1798fb-4952-4a76-be55-54b55f80f2e6'
-USER_SECRET = '5ae71e99-6360-43be-8f7b-ccf5c7c67fab'
+USER_TOKEN = '**********************'
+USER_SECRET = '***************************'
 RETURN_URL = 'http://localhost:8000'
 PREDEFINED_STATE = 'DCEEFWF45453sdffef424' #NEEDS TO BE UPDATED
 REDIRECT_URI_FINAL = 'http://0.0.0.0:5000/resultsontheway'
